@@ -27,8 +27,7 @@ public class UserEntity {
 	private String lastName;
 
 	@Setter
-	@Column(name = "email", unique = true, nullable = false) //unique yaparak alternate key yaratıyoruz
-															 // nullable = false boş geçilmesini engelliyor
+	@Column(name = "email", unique = true, nullable = false) //unique yaparak alternate key yaratıyoruz														 // nullable = false boş geçilmesini engelliyor
 	private String email;
 	
 	public UserEntity(String firstName, String lastName) {
